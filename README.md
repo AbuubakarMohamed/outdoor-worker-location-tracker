@@ -64,7 +64,7 @@ This repo uses placeholder values in place of real API keys and credentials. To 
 1. Create a Firebase project at [console.firebase.google.com](https://console.firebase.google.com), enabling **Authentication** (Google Sign-In) and **Firestore**.
 2. **Android app:**
    - Replace `YOUR_WEB_CLIENT_ID` in `strings.xml` with your OAuth web client ID from the Firebase console.
-   - Add your own `google-services.json` from the Firebase console (not committed to this repo).
+   - Download your own `google-services.json` from the Firebase console and save it to `app/OutDoorWorker/app/` (it is git-ignored; `google-services.example.json` shows the expected shape).
 3. **Web dashboard:**
    - Copy `firebase-config.example.js` to `firebase-config.js` and fill in your Firebase project values.
    - Replace `YOUR_MAP_API_KEY` in the Maps script tag with a Google Maps API key. In production this key should be **restricted by HTTP referrer** in the Google Cloud Console.
@@ -76,4 +76,4 @@ The system was evaluated through unit testing and user testing against a set of 
 ## Author
 
 **Abuubakar Mohamed**
-[LinkedIn](https://linkedin.com/in/abuubakar-mohamed) · [GitHub](https://github.com/modenspace)
+[LinkedIn](https://linkedin.com/in/abuubakar-mohamed) · [GitHub](https://github.com/AbuubakarMohamed) · [Portfolio](https://abuubakar.co.uk)

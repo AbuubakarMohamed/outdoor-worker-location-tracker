@@ -1,1 +1,4 @@
 /build
+
+# Firebase config with project keys: download your own from the Firebase console
+google-services.json
